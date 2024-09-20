@@ -15,7 +15,6 @@ Implementare:
     iar routerul este destinatia (verificam prin IP-uri), trimitem un Echo Reply.
     Altfel, trimitem pachetul curent spre urmatoarea destinatie. 
 
-Puncte rezolvate:
     1. Procesul de dirijare : Aici doar verificam tipul pachetului sa fie
                               IPv4 si integritatea pachetului prin checksum.
                               In procesul de trimitere mai departe, folosim
